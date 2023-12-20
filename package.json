@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "author": "",
-"start":{
+"scripts":{
 },
   "license": "ISC",
   "dependencies": {
