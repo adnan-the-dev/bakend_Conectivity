@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "author": "",
+'start':{
+}
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
