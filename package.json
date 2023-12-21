@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+  },
   "author": "",
-"scripts":{
-},
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
