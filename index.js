@@ -7,10 +7,7 @@ const cors = require('cors');
 
 const app = express();
 dotenv.config();
-// const {MONGO_URL} = process.env;
-// const MONGO_URL = 'mongodb+srv://adnan:apple123@cluster0.afyprvm.mongodb.net/?retryWrites=true&w=majority'
-const MONGO_URL = 'mongodb://192.168.2.138:27017'
-// const MONGO_URL = 'mongodb://103.18.20.49:27017/test'
+const MONGO_URL = process.env.MONGO_URL;
 
 mongoose.set("strictQuery", false);
 mongoose.connect(MONGO_URL, (err)=>{
