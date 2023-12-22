@@ -28,12 +28,6 @@ router.put('/:id', async (req, res)=>{
     }
 });
 
-router.put('/update-user', async (req, res)=>{
-
-    let user = await User.findByIdAndUpdate(req.body._id, req.body)
-    res.json(user);
-});
-
 //Delete user
 router.delete('/:id', async (req, res)=>{
     // if(req.body.userId === req.params.id || req.body.isAdmin){
